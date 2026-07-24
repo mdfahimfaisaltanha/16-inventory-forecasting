@@ -1,4 +1,4 @@
-# 📦 StockSense — Supply Chain / Inventory Forecasting
+# StockSense — Supply Chain / Inventory Forecasting
 
 Demand forecasting and replenishment planning for a fictional wholesale distributor
 (**Bluecrate Distribution**): 365 days of seeded synthetic sales across 12 SKUs with distinct
@@ -22,7 +22,7 @@ scripts/generate.mjs          scripts/forecast.mjs                  Next.js app
             Postgres: products · daily_sales · forecasts · backtests
 ```
 
-## Design decisions (interview talking points)
+## Design
 
 1. **Why not Prophet/ARIMA?** They're Python libraries; this stack is Node. Instead of shelling
    out to a Python sidecar, the project implements the classical method those libraries wrap —
