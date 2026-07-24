@@ -1,0 +1,27 @@
+{
+  "name": "inventory-forecasting",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StockSense — supply chain/inventory forecasting: Holt-Winters from scratch vs baselines, rolling-origin backtesting (MAPE/WAPE), reorder points with safety stock",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "setup": "node scripts/setup.mjs",
+    "generate": "node scripts/generate.mjs",
+    "forecast": "node scripts/forecast.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.15",
+    "pg": "^8.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/pg": "^8.11.6",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  }
+}
